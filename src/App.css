@@ -1,38 +1,45 @@
+html {
+  background: #093028; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #237a57, #093028); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-grad {
+  background-image: linear-gradient(to right, #16a085 0%, #f4d03f 51%, #16a085 100%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.btn-grad {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  transition: 0.5s;
+  background-size: 200% auto;
   color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.convert-container {
+  margin: 0 auto;
+  background-color: #dcf5ef;
+  max-width: 25%;
 }
