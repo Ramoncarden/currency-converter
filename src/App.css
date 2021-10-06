@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Quicksand";
+  color: #333;
+}
+
 html {
   background: #093028; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #237a57, #093028); /* Chrome 10-25, Safari 5.1-6 */
@@ -42,4 +49,39 @@ html {
   margin: 0 auto;
   background-color: #dcf5ef;
   max-width: 25%;
+  height: 500px;
+  -webkit-box-shadow: -1px -1px 12px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -2px -1px 25px 14px rgba(0, 0, 0, 0.425);
+  box-shadow: -3px -2px 45px 17px rgba(0, 0, 0, 0.35);
+}
+
+.convert-select {
+  /* margin: 4%; */
+  padding-top: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.convert-amount {
+  margin: 5%;
+}
+
+.amount {
+  display: block;
+  margin-bottom: 2%;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  width: 80%;
+  height: 20px;
+}
+
+h1 {
+  text-shadow: 1px 2px;
+  color: #d9b171;
 }
