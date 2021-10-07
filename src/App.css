@@ -72,6 +72,47 @@ html {
   margin-bottom: 2%;
 }
 
+.table-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.supported-currencies {
+  font-size: 28px;
+  color: #d9b171;
+}
+
+table {
+  margin: 0 auto;
+  padding-top: 1%;
+  border-collapse: collapse;
+  font-size: 1.1em;
+  min-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+  background-color: rgb(215, 139, 85);
+}
+
+td {
+  padding: 12px 15px;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #dcf5ef;
+}
+
 label {
   font-size: 1.2rem;
 }
