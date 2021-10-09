@@ -84,6 +84,21 @@ html {
   color: #d9b171;
 }
 
+.result-area {
+  display: block;
+}
+
+.result-area h2 {
+  font-size: 30px;
+  color: #093028;
+}
+
+.amt-total {
+  font-size: 36px;
+  color: #093028;
+  font-weight: bold;
+}
+
 table {
   margin: 0 auto;
   padding-top: 1%;
@@ -119,7 +134,8 @@ label {
 
 input {
   width: 80%;
-  height: 20px;
+  height: 30px;
+  font-size: 20px;
 }
 
 h1 {
