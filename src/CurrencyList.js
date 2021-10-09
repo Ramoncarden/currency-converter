@@ -1,6 +1,7 @@
 import React from 'react';
 import { data } from './data/data';
 
+// importing currency data from data.js for creating table with currency codes and currency name.
 const CurrencyList = () => {
   return (
     <div className="table-container">

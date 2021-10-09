@@ -1,3 +1,15 @@
+# H1 Currency Converter
+
+## Description
+
+Currency converter is a react web page that allows you to quickly convert between a dropdown menu of currencies. Select a currency to convert from and a cureency to select to and enter a desired amount, that's it! Data will update as information changes. 
+
+## How to run
+To check out the currency converter head over to the live demo at 
+
+## bugs
+There is a small bug that prevents the displayed total amount from displaying 0 if the amount field is empty after an existing amount has been deleted.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
