@@ -5,7 +5,7 @@
 Currency converter is a react web page that allows you to quickly convert between a dropdown menu of currencies. Select a currency to convert from and a cureency to select to and enter a desired amount, that's it! Data will update as information changes. 
 
 ## How to run
-To check out the currency converter head over to the live demo at 
+To check out the currency converter head over to the live demo [here](https://ramoncarden.github.io/currency-converter/)
 
 ## bugs
 There is a small bug that prevents the displayed total amount from displaying 0 if the amount field is empty after an existing amount has been deleted.
