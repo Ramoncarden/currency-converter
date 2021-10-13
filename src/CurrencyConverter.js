@@ -28,6 +28,7 @@ const CurrencyConverter = () => {
   useEffect(
     () => {
       async function handleSubmit() {
+        console.log(formData);
         if (formData.amount !== '') {
           try {
             const res = await axios.get(`${BASE_URL}/${formData.convertFrom}/${formData.convertTo}/${formData.amount}`);
@@ -37,7 +38,7 @@ const CurrencyConverter = () => {
             setError(e.message);
           }
         } else {
-          setFormData[formData.amount] = '';
+          setConversionRate('');
         }
       }
       handleSubmit();
